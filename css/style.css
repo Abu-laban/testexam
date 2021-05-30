@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    background-color:cornflowerblue;
+}
+
+#myForm{
+    margin: 50px;
+    background-color: cornflowerblue;
+    display: inline-block;  
+    width: 350px; 
+    
+}
+
+#myForm legend{
+    text-align: center;
+    font-size: x-large;
+    padding: 35px;
+}
+
+#myForm label{
+    font-size:medium;
+    margin: 40px;
+}
+#date , #getDone{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    width: 75%;
+
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+#btn{
+    margin-bottom: 15px;
+    margin-left: 270px;
+    box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+	background-color:#637aad;
+	border:1px solid #314179;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+
+#listContainer{
+    width: 500px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 250px;
+}
+
+p{ 
+    color: blue;
+    font-size: small;
+}
+
+span{
+    margin-right: 50px;
+    float: right;
+    font-size: medium;
+    color: red;
+    padding: 15px 15px;
+}
+li{
+    padding-bottom: 50px;
+    font-size: x-large;
+}
